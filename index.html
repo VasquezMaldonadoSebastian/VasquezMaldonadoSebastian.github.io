@@ -195,78 +195,31 @@
     <section class="section section-alt" id="project">
         <div class="container">
             <h2 class="section-title">Proyecto destacado</h2>
-            <p class="section-subtitle">Pipeline de Extracción y Análisis de Boletas Electrónicas</p>
-
-            <div class="project-kpis">
-                <div class="kpi-card glass">
-                    <span class="kpi-icon">💰</span>
-                    <span class="kpi-value">$723 MM</span>
-                    <span class="kpi-label">Total facturado</span>
-                </div>
-                <div class="kpi-card glass">
-                    <span class="kpi-icon">📄</span>
-                    <span class="kpi-value">8,101</span>
-                    <span class="kpi-label">Boletas procesadas</span>
-                </div>
-                <div class="kpi-card glass">
-                    <span class="kpi-icon">✅</span>
-                    <span class="kpi-value">19.00%</span>
-                    <span class="kpi-label">IVA exacto · $108.9 MM</span>
-                </div>
-                <div class="kpi-card glass">
-                    <span class="kpi-icon">🛡️</span>
-                    <span class="kpi-value">0</span>
-                    <span class="kpi-label">Errores · 7,912 PDFs</span>
-                </div>
-                <div class="kpi-card glass">
-                    <span class="kpi-icon">📅</span>
-                    <span class="kpi-value">14 meses</span>
-                    <span class="kpi-label">Nov 2023 → Ene 2025</span>
-                </div>
-            </div>
+            <p class="section-subtitle">Plataforma web de indicadores institucionales — UCT</p>
 
             <div class="project-card glass-card">
                 <div class="project-info">
-                    <h3>Pipeline automatizado de boletas Transbank</h3>
-                    <p>Pipeline que procesa <strong>7,912 PDFs</strong> de boletas electrónicas desde la pasarela de pagos Transbank, los transforma en un <strong>dataset gold de 8,101 registros</strong> con 28 campos, y genera un dashboard interactivo de 4 páginas para análisis de negocio hotelero.</p>
+                    <h3>KimnGenero — Gestión de indicadores y categorías</h3>
+                    <p>Aplicación web full-stack desarrollada para la <strong>Universidad Católica de Temuco</strong> en el marco del proyecto ANID INGE230010. Expone indicadores institucionales y categorías vía API REST, con una interfaz React moderna para visualización y administración de datos.</p>
+                    <p>Arquitectura <strong>client-server</strong> con frontend en React/Vite + TypeScript, backend Express con capa de servicios y repositorios, y tipos compartidos entre ambas capas. Incluye pipeline de datos locales, documentación técnica completa y despliegue Docker institucional.</p>
                     <div class="project-stack">
-                        <span class="stack-tag">Python</span>
-                        <span class="stack-tag">pdfplumber</span>
-                        <span class="stack-tag">pandas</span>
-                        <span class="stack-tag">Plotly</span>
-                        <span class="stack-tag">Streamlit</span>
-                        <span class="stack-tag">Excel/VBA</span>
+                        <span class="stack-tag">React</span>
+                        <span class="stack-tag">Vite</span>
+                        <span class="stack-tag">TypeScript</span>
+                        <span class="stack-tag">Express</span>
+                        <span class="stack-tag">Docker</span>
+                        <span class="stack-tag">pnpm</span>
                     </div>
-                    <a href="https://github.com/vasquezmaldonadosebastian-hash/solar-madariaga" class="btn btn-primary" target="_blank">Ver repositorio →</a>
+                    <a href="https://github.com/vasquezmaldonadosebastian-hash/KimnGenero" class="btn btn-primary" target="_blank">Ver repositorio →</a>
                 </div>
                 <div class="project-arch">
-                    <div class="arch-box arch-source">PDFs Transbank<br><span>7,912 boletas</span></div>
+                    <div class="arch-box arch-source">Frontend React/Vite<br><span>TypeScript + pnpm</span></div>
                     <div class="arch-arrow">→</div>
-                    <div class="arch-box arch-extract">Python pdfplumber<br><span>24 campos extraídos</span></div>
+                    <div class="arch-box arch-extract">API Express<br><span>Servicios + Repositorios</span></div>
                     <div class="arch-arrow">→</div>
-                    <div class="arch-box arch-process">Merge & Enrich<br><span>8,101 registros gold</span></div>
+                    <div class="arch-box arch-process">Tipos compartidos<br><span>shared/types</span></div>
                     <div class="arch-arrow">→</div>
-                    <div class="arch-box arch-vis">Dashboard Streamlit<br><span>4 páginas interactivas</span></div>
-                </div>
-            </div>
-
-            <!-- Screenshots grid -->
-            <div class="screenshots-grid">
-                <div class="screenshot-card">
-                    <img src="assets/dashboard-overview.png" alt="Dashboard Overview" loading="lazy">
-                    <span class="screenshot-label">Overview — KPIs y evolución mensual</span>
-                </div>
-                <div class="screenshot-card">
-                    <img src="assets/dashboard-temporal.png" alt="Dashboard Temporal" loading="lazy">
-                    <span class="screenshot-label">Análisis Temporal — Heatmap día×hora</span>
-                </div>
-                <div class="screenshot-card">
-                    <img src="assets/dashboard-costos.png" alt="Dashboard Pagos" loading="lazy">
-                    <span class="screenshot-label">Pagos y Costos — Débito/Crédito/Efectivo</span>
-                </div>
-                <div class="screenshot-card">
-                    <img src="assets/dashboard-detalle.png" alt="Dashboard Detalle" loading="lazy">
-                    <span class="screenshot-label">Detalle — Tabla filtrable</span>
+                    <div class="arch-box arch-vis">Datos locales + Docker<br><span>indicadores.json · Deploy</span></div>
                 </div>
             </div>
         </div>
